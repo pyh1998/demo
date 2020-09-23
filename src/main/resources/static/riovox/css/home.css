@@ -129,8 +129,9 @@ a{
 .main-img .img1 {
 	background-image: url(../image/home-banner1.png);
 	background-repeat: no-repeat;
+	background-size:100% 100%;
 	width: 100%;
-	height: 784px;
+	height: 100%;
 	float: left;
 	display: block;
 	opacity: 1;
@@ -141,6 +142,7 @@ a{
 .main-img .img2 {
 	background-image: url(../image/home-banner2.png);
 	background-repeat: no-repeat;
+	background-size:100% 100%;
 	width: 100%;
 	height: 784px;
 	float: left;
@@ -153,6 +155,7 @@ a{
 .main-img .img3 {
 	background-image: url(../image/home-banner3.png);
 	background-repeat: no-repeat;
+	background-size:100% 100%;
 	width: 100%;
 	height: 784px;
 	float: left;
@@ -421,11 +424,12 @@ a{
 }
 .right-img {
 	background-image: url(../image/333.png);
+	background-size:100% 100%;
 	width: 1220px;
-	height: 558px;
+	height: 440px;
 	position: absolute;
 	left: -140px;
-	bottom: -52px;
+	bottom: -10px;
 	z-index: 2px;
 }
 .game-data {
@@ -456,6 +460,8 @@ a{
 	float: left;
 	margin-left: 20px;
 	position: relative;
+	width: 340px;
+	height: 209px;
 }
 /*图片上的标签*/
 .one-part .first-tip{
