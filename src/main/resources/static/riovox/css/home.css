@@ -196,18 +196,18 @@ a{
 	text-align: center;
 }
 .download-target .download1 {
-	left: 19px;
-	bottom: 133px;
+	left: 45px;
+	bottom: 160px;
 	position: absolute;
-	width: 107px;
-	height: 107px;
+	width: 50px;
+	height: 50px;
 }
 .download-target .download2 {
-	left: 19px;
-	bottom: 16px;
+	left: 45px;
+	bottom: 60px;
 	position: absolute;
-	width: 107px;
-	height: 107px;
+	width: 50px;
+	height: 50px;
 }
 .main-img .news-report {
 	width: 162px;

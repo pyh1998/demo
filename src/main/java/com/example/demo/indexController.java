@@ -25,6 +25,11 @@ public class indexController {
     @RequestMapping("/riovox")
     public String riovox(){
 
+        return "demo/index";
+    }
+    @RequestMapping("/Riovox")
+    public String Riovox(){
+
         return "riovox/home";
     }
 
