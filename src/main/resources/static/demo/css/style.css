@@ -1119,12 +1119,15 @@ width: 94%;
 
 
 #slideshow {
+    padding: 100px 0 0;
     position: relative;
     display: none;
+    width: 940px;
+    margin: 0 auto;
 }
 .slide-control {
     position: absolute;
-    top:37%;
+    top:50%;
     width: 100%;
     text-align: center;
     color: #eee;

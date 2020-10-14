@@ -12,6 +12,9 @@
 	<!-- Custom-Theme-Files -->
     <!-- Bootstrap-CSS --> 			<link rel="stylesheet" href="../../static/demo/css/bootstrap.min.css">
     <!-- JQuery --> 				<script src="../../static/demo/js/jquery.min.js">			</script>
+									<script src="../../static/demo/js/jquery.js">			</script>
+	                                <script src="../../static/demo/js/jquery.once.js">			</script>
+	                                <script src="../../static/demo/js/jquery.cycle.all.js">			</script>
     <!-- Bootstrap-Main --> 		<script src="../../static/demo/js/bootstrap.min.js">		</script>
     <!-- Index-Page-Styling --> 	<link rel="stylesheet" href="../../static/demo/css/style.css" type="text/css" media="all">
 <!-- Start-Smooth-Scrolling -->
@@ -79,6 +82,77 @@
 			</div>
 		</div> <!-- Banner Ends Here -->
 </div> <!-- Header Ends -->
+
+
+<div id="slideshow" style="display: block;">
+	<!--slides-->
+	<div class="slides" style="position: relative; overflow: hidden; height: 325px;">
+		<div class="slider-item" style="position: absolute; top: 0px; left: -940px; display: none; z-index: 5; opacity: 1; width: 940px;">
+			<div class="slider-item-image">
+				<a href="http://www.riovox.com/?q=copsnrobbers_fps">
+					<img src="../../static/demo/images/slider-img2_6.0.jpg" style="width:940px;height:325px;">
+				</a>
+			</div>
+			<!--<div class="slider-item-title">Cops N Robbers</div>-->
+			<!--<div class="slider-item-body">FPS</div>-->
+		</div>
+		<!--EOF:slider-item-->
+
+		<!--slider-item:Cops N Robbers (Jail Break)-->
+		<div class="slider-item current" style="position: absolute; top: 0px; left: 0px; display: block; z-index: 6; opacity: 1; width: 940px;">
+			<div class="slider-item-image"><a href="http://www.riovox.com/?q=copsnrobbers_jb"><img src="../../static/demo/images/slider-img3.jpg"></a></div>
+			<!--<div class="slider-item-title">Cops N Robbers</div>
+            <div class="slider-item-body">Jail Break</div>-->
+		</div>
+		<!--EOF:slider-item-->
+
+		<!--slider-item:Cops N Robbers (Jail Break 2)-->
+		<div class="slider-item" style="position: absolute; top: 0px; left: -940px; display: none; z-index: 5; opacity: 1; width: 940px;">
+			<div class="slider-item-image"><a href="http://www.riovox.com/?q=copsnrobbers_jb2"><img src="../../static/demo/images/slider-img6.png"></a></div>
+			<!--<div class="slider-item-title">Cops N Robbers</div>-->
+			<!--<div class="slider-item-body">Jail Break 2</div>-->
+		</div>
+		<!--EOF:slider-item-->
+
+		<!--slider-item:SG-->
+		<div class="slider-item" style="position: absolute; top: 0px; left: -940px; display: none; z-index: 5; opacity: 1; width: 940px;">
+			<div class="slider-item-image"><a href="http://www.riovox.com/?q=suruiualgame"><img src="../../static/demo/images/slider-img4.png"></a></div>
+			<!--<div class="slider-item-title">Survival Games</div>-->
+			<!--<div class="slider-item-body">Survival Games</div>-->
+		</div>
+		<!--EOF:slider-item-->
+
+		<!--slider-item:SH-->
+		<div class="slider-item" style="position: absolute; top: 0px; left: -940px; display: none; z-index: 5; opacity: 1; width: 940px;">
+			<div class="slider-item-image"><a href="http://www.riovox.com/?q=skyblock"><img src="../../static/demo/images/slider-img5.jpg"></a></div>
+			<!--<div class="slider-item-title">SkyBlock</div>-->
+			<!--<div class="slider-item-body">SkyBlock</div>-->
+		</div>
+
+		<!--EOF:slider-item-->
+	</div>
+	<!--EOF:slides-->
+
+	<!--slide-control-->
+	<div class="slide-control">
+		<div id="prev" href="#"><span class="websymbols">&lt;</span></div>
+		<div id="next" href="#"><span class="websymbols">&gt;</span></div>
+	</div>
+	<!--EOF:slide-control-->
+
+	<!--#slide-nav-->
+	<ul id="slide-nav">
+		<li class=""><a href="#"></a></li>
+		<li class="activeSlide"><a href="#"></a></li>
+		<li class=""><a href="#"></a></li>
+		<li class=""><a href="#"></a></li>
+		<li class=""><a href="#"></a></li>
+		<!--<li><a href="#"></a></li>-->
+	</ul>
+	<!--EOF:#slide-nav-->
+
+</div>
+
 
 	
 <div class="about" id="about">	
@@ -384,86 +458,86 @@
 <!-- Up Coming Games Ends Here -->
 
  
-<div class="our-team">
-	<div class="container">
-		<div class="team" id="ourteam">
-		  <h3>Team Members </h3>
-			
-			<div class="team-up">			
-				<div class="col-md-3 team-size">
-					<div class="team-img">
-						<img src="../../static/demo/images/t1.jpg" alt="image">
-						<h4>Lorem Ipsum </h4>
-						<p>Desktop publishing</p>
-					</div>
-				</div>
-				
-				<div class="col-md-3 team-size">
-					<div class="team-img">
-						<img src="../../static/demo/images/t2.jpg" alt="image">
-						<h4> Ipsum Lorem </h4>
-						<p>Graphic Designer</p>
-					</div>
-				</div>
-				
-				<div class="col-md-3 team-size">
-					<div class="team-img">
-						<img src="../../static/demo/images/t3.jpg" alt="image">
-						<h4>Olrem Ipsum </h4>
-						<p>System Designer</p>
-					</div>
-				</div>
-				
-				<div class="col-md-3 team-size">
-					<div class="team-img">
-						<img src="../../static/demo/images/t6.jpg" alt="image">
-						<h4>Rolem Ipsum </h4>
-						<p>Media publishing</p>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-			</div>                      <!-- Team-up ends here -->
-			
-			<div class="team-bottom">			
-				<div class="col-md-3 team-size">
-					<div class="team-img">
-						<img src="../../static/demo/images/t4.jpg" alt="image">
-						<h4>Lorem Ipsum </h4>
-						<p>Desktop publishing</p>
-					</div>
-				</div>
-				
-				<div class="col-md-3 team-size">
-					<div class="team-img">
-						<img src="../../static/demo/images/t5.jpg" alt="image">
-						<h4> Ipsum Lorem </h4>
-						<p>Graphic Designer</p>
-					</div>
-				</div>
-				
-				<div class="col-md-3 team-size">
-					<div class="team-img">
-						<img src="../../static/demo/images/t1.jpg" alt="image">
-						<h4>Olrem Ipsum </h4>
-						<p>System Designer</p>
-					</div>
-				</div>
-				
-				<div class="col-md-3 team-size">
-					<div class="team-img">
-						<img src="../../static/demo/images/t2.jpg" alt="image">
-						<h4>Rolem Ipsum </h4>
-						<p>Media publishing</p>
-					</div>
-				</div>
-			  <div class="clearfix"></div>	
-			</div> <!-- Team-bottom ends here -->
-		
-		  <div class="clearfix"></div>
-		</div> <!-- Team Ends -->
+<!--<div class="our-team">-->
+<!--	<div class="container">-->
+<!--		<div class="team" id="ourteam">-->
+<!--		  <h3>Team Members </h3>-->
+<!--			-->
+<!--			<div class="team-up">			-->
+<!--				<div class="col-md-3 team-size">-->
+<!--					<div class="team-img">-->
+<!--						<img src="../../static/demo/images/t1.jpg" alt="image">-->
+<!--						<h4>Lorem Ipsum </h4>-->
+<!--						<p>Desktop publishing</p>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				-->
+<!--				<div class="col-md-3 team-size">-->
+<!--					<div class="team-img">-->
+<!--						<img src="../../static/demo/images/t2.jpg" alt="image">-->
+<!--						<h4> Ipsum Lorem </h4>-->
+<!--						<p>Graphic Designer</p>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				-->
+<!--				<div class="col-md-3 team-size">-->
+<!--					<div class="team-img">-->
+<!--						<img src="../../static/demo/images/t3.jpg" alt="image">-->
+<!--						<h4>Olrem Ipsum </h4>-->
+<!--						<p>System Designer</p>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				-->
+<!--				<div class="col-md-3 team-size">-->
+<!--					<div class="team-img">-->
+<!--						<img src="../../static/demo/images/t6.jpg" alt="image">-->
+<!--						<h4>Rolem Ipsum </h4>-->
+<!--						<p>Media publishing</p>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div class="clearfix"></div>-->
+<!--			</div>                      &lt;!&ndash; Team-up ends here &ndash;&gt;-->
+<!--			-->
+<!--			<div class="team-bottom">			-->
+<!--				<div class="col-md-3 team-size">-->
+<!--					<div class="team-img">-->
+<!--						<img src="../../static/demo/images/t4.jpg" alt="image">-->
+<!--						<h4>Lorem Ipsum </h4>-->
+<!--						<p>Desktop publishing</p>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				-->
+<!--				<div class="col-md-3 team-size">-->
+<!--					<div class="team-img">-->
+<!--						<img src="../../static/demo/images/t5.jpg" alt="image">-->
+<!--						<h4> Ipsum Lorem </h4>-->
+<!--						<p>Graphic Designer</p>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				-->
+<!--				<div class="col-md-3 team-size">-->
+<!--					<div class="team-img">-->
+<!--						<img src="../../static/demo/images/t1.jpg" alt="image">-->
+<!--						<h4>Olrem Ipsum </h4>-->
+<!--						<p>System Designer</p>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				-->
+<!--				<div class="col-md-3 team-size">-->
+<!--					<div class="team-img">-->
+<!--						<img src="../../static/demo/images/t2.jpg" alt="image">-->
+<!--						<h4>Rolem Ipsum </h4>-->
+<!--						<p>Media publishing</p>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			  <div class="clearfix"></div>	-->
+<!--			</div> &lt;!&ndash; Team-bottom ends here &ndash;&gt;-->
+<!--		-->
+<!--		  <div class="clearfix"></div>-->
+<!--		</div> &lt;!&ndash; Team Ends &ndash;&gt;-->
 
-    </div>
-</div> <!-- Our-team Ends -->
+<!--    </div>-->
+<!--</div> &lt;!&ndash; Our-team Ends &ndash;&gt;-->
 	
 	
 <div class="contact" id="contact">
@@ -514,88 +588,7 @@
 
 
 
-<div id="slideshow" style="display: block;">
-	<!--slides-->
-	<div class="slides" style="position: relative; overflow: hidden; height: 325px;">
 
-		<!--slider-item:Unturned Z-->
-		<!--
-        <div class="slider-item">
-        <div class="slider-item-image"><a href="?q=Unturned Z"><img src="sites/all/images/games/slider-img8.png"/></a></div>
-        </div>
-        -->
-		<!--EOF:slider-item-->
-
-		<!--slider-item：PocketMine-->
-		<!--
-        <div class="slider-item">
-        <div class="slider-item-image"><a href="?q=MultiplayerMods"><img src="sites/all/images/games/slider-img7.png"/></a></div>
-        </div>
-        -->
-		<!--EOF:slider-item-->
-
-		<!--slider-item:Cops N Robbers (FPS)-->
-		<div class="slider-item" style="position: absolute; top: 0px; left: -940px; display: none; z-index: 5; opacity: 1; width: 940px;">
-			<div class="slider-item-image"><a href="http://www.riovox.com/?q=copsnrobbers_fps"><img src="../../static/demo/images/slider-img2_6.0.jpg" style="width:940px;height:325px;"></a></div>
-			<!--<div class="slider-item-title">Cops N Robbers</div>-->
-			<!--<div class="slider-item-body">FPS</div>-->
-		</div>
-		<!--EOF:slider-item-->
-
-		<!--slider-item:Cops N Robbers (Jail Break)-->
-		<div class="slider-item current" style="position: absolute; top: 0px; left: 0px; display: block; z-index: 6; opacity: 1; width: 940px;">
-			<div class="slider-item-image"><a href="http://www.riovox.com/?q=copsnrobbers_jb"><img src="../../static/demo/images/slider-img3.jpg"></a></div>
-			<!--<div class="slider-item-title">Cops N Robbers</div>
-            <div class="slider-item-body">Jail Break</div>-->
-		</div>
-		<!--EOF:slider-item-->
-
-		<!--slider-item:Cops N Robbers (Jail Break 2)-->
-		<div class="slider-item" style="position: absolute; top: 0px; left: -940px; display: none; z-index: 5; opacity: 1; width: 940px;">
-			<div class="slider-item-image"><a href="http://www.riovox.com/?q=copsnrobbers_jb2"><img src="../../static/demo/images/slider-img6.png"></a></div>
-			<!--<div class="slider-item-title">Cops N Robbers</div>-->
-			<!--<div class="slider-item-body">Jail Break 2</div>-->
-		</div>
-		<!--EOF:slider-item-->
-
-		<!--slider-item:SG-->
-		<div class="slider-item" style="position: absolute; top: 0px; left: -940px; display: none; z-index: 5; opacity: 1; width: 940px;">
-			<div class="slider-item-image"><a href="http://www.riovox.com/?q=suruiualgame"><img src="../../static/demo/images/slider-img4.png"></a></div>
-			<!--<div class="slider-item-title">Survival Games</div>-->
-			<!--<div class="slider-item-body">Survival Games</div>-->
-		</div>
-		<!--EOF:slider-item-->
-
-		<!--slider-item:SH-->
-		<div class="slider-item" style="position: absolute; top: 0px; left: -940px; display: none; z-index: 5; opacity: 1; width: 940px;">
-			<div class="slider-item-image"><a href="http://www.riovox.com/?q=skyblock"><img src="../../static/demo/images/slider-img5.jpg"></a></div>
-			<!--<div class="slider-item-title">SkyBlock</div>-->
-			<!--<div class="slider-item-body">SkyBlock</div>-->
-		</div>
-
-		<!--EOF:slider-item-->
-	</div>
-	<!--EOF:slides-->
-
-	<!--slide-control-->
-	<div class="slide-control">
-		<div id="prev" href="#"><span class="websymbols">&lt;</span></div>
-		<div id="next" href="#"><span class="websymbols">&gt;</span></div>
-	</div>
-	<!--EOF:slide-control-->
-
-	<!--#slide-nav-->
-	<ul id="slide-nav">
-		<li class=""><a href="#"></a></li>
-		<li class="activeSlide"><a href="#"></a></li>
-		<li class=""><a href="#"></a></li>
-		<li class=""><a href="#"></a></li>
-		<li class=""><a href="#"></a></li>
-		<!--<li><a href="#"></a></li>-->
-	</ul>
-	<!--EOF:#slide-nav-->
-
-</div>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 
