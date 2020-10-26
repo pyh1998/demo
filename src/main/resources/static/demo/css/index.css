@@ -1,0 +1,3362 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#header{
+    width: 100%;
+    height: 360px;
+    position: relative;
+    background:url(../imgs/0.jpg) no-repeat center top;
+    top: 0;
+    left: 0;
+}
+
+#header .Header_btn{
+    width: 160px;
+    height:40px;
+    margin: 220px auto;
+    background:url(../imgs/topfoot-spr.png) repeat;
+    background-position: -216px -39px;
+}
+
+#header .header{
+    width: 100%;
+    height:78px;
+    background:url(../imgs/dark-jianbian-repeatx-0.png)  center top;
+    margin: 0px auto;
+    box-shadow:0px -3px 167px 6px;
+}
+
+#header .header .header_top{
+    max-width: 1360px;
+    min-width: 1260px;
+    height: 360px;
+    margin: 0px auto;
+    /* background-color: yellow; */
+}
+
+#header .header .nav{
+    max-width: 1360px;
+    min-width: 1260px;
+    height: 78px;
+    position:relative;
+    z-index: 10;
+    margin: 0px auto;
+}
+
+#header .header .nav .nav_left{
+    float: left;
+    width: 900px;
+    height: 100%;
+}
+
+#header .header .nav .nav_left li{
+    float: left;
+    width: 148px;
+    height:78px;
+}
+
+#header .header .nav .nav_left li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#header .header .nav .nav_right{
+    float: right;
+    width: 460px;
+    height: 100%;
+}
+
+#header .header .nav .nav_right li{
+    float: left;
+    width: 50px;
+    height: 78px;
+    text-align: center;
+    line-height: 78px;
+}
+
+#header .header .nav .nav_right .We .ewm{
+    display: none;
+    width: 200px;
+    height: 170px;
+    background:url(../imgs/topfoot-spr.png) repeat;
+    position: relative;
+    left: -81px;
+}
+
+#header .header .nav .nav_right .We .ewm i{
+    display: block;
+    width: 120px;
+    height:120px;
+    border-radius: 4px;
+    position: absolute;
+    top: 18px;
+    left: 40px;
+    background-color: white;
+}
+
+#header .header .nav .nav_right .We .ewm i img{
+    width: 110px;
+    height: 110px;
+    margin-top: 4px;
+}
+
+#header .header .nav .nav_right .We .ewm i .p1{
+    color: #cdbe91;
+    font-size: 12px;
+    position: absolute;
+    font: 12px/1.5 tahoma,'\5FAE\8F6F\96C5\9ED1',sans-serif;
+    top: 123px;
+}
+
+#header .header .nav .nav_right .We .ewm i span{
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: -40px;
+    top: 106px;
+}
+
+#header .header .nav .nav_right .We .ewm i span img{
+    width: 100%;
+    height: 100%;
+}
+
+#header .header .nav .nav_right .We:hover .ewm{
+    display: block;
+}
+
+
+#header .header .nav .nav_right .text{
+    width: 270px;
+    height: 78px;
+    line-height: 78px;
+    position: relative;
+    top: 0px;
+}
+
+#header .header .nav .nav_right .text span{
+    position: relative;
+    top: -9px;
+}
+
+#header .header .nav .nav_right .text .active{
+    display: none;
+    width: 310px;
+    height: 230px;
+    position: relative;
+    top: -91px;
+    left: -2px;
+    z-index: -100;
+    background: url(../imgs/dark70-bg-repeat.png) repeat;
+}
+
+#header .header .nav .nav_right .text .active .pText{
+    display: block;
+    width: 310px;
+    height: auto;
+    position: absolute;
+    font-size: 12px;
+    color: #848383;
+    text-align:center;
+    line-height: 20px;
+    font: 12px/1.5 tahoma,'\5FAE\8F6F\96C5\9ED1',sans-serif;
+}
+
+#header .header .nav .nav_right .text .active .p2{
+    top: 100px;
+}
+
+#header .header .nav .nav_right .text .active .p3{
+    top: 150px;
+}
+
+#header .header .nav .nav_right .text .active .login{
+    display: block;
+    width: 100%;
+    height: 44px;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    line-height: 44px;
+    background-color: black;
+}
+
+#header .header .nav .nav_right .text .active .login .more-arrow{
+    display: inline-block;
+    vertical-align: middle;
+    margin: -2px 0 0 5px;
+    animation: 1.5s linear infinite;
+    -webkit-animation: 1.5s linear infinite;
+    background-position: -301px -96px;
+    background-image: url(../imgs/comm-spr.png);
+    background-size: 393px 200px;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 9px;
+}
+
+#header .header .nav .nav_right .text:hover .active{
+    display: block;
+}
+/*首页头部end */
+
+/* 首页内容 */
+#show{
+    width: 100%;
+    min-width: 1440px;
+    height: auto;
+    margin: 0px auto;
+}
+
+#show .sesstion{
+    width: 1440px;
+    height: auto;
+    margin: 0px auto;
+    padding-top: 100px;
+    position: relative;
+}
+
+#show .sesstion .lun_left{
+    float: left;
+    width: 819.99px;
+    height: 360px;
+    position: relative;
+    overflow: hidden;
+}
+
+#show .sesstion .lun_left .ding{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+}
+
+#show .sesstion .lun_left .imgs{
+    width:4920px;
+    height: 320px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#show .sesstion .lun_left .imgs img{
+    float: left;
+}
+
+#show .sesstion .lun_left .lis{
+    height: 40px;
+    bottom: 0px;
+}
+
+#show .sesstion .lun_left .lis ul li{
+    float: left;
+    width: 163.98px;
+    height: 38px;
+    text-align: center;
+    line-height:40px;
+    background-color: #e3e2e2;
+}
+
+#show .sesstion .lun_left .lis ul .color{
+    color: #ab8e66;
+    background-color: #f7f6f6;
+    border-bottom: 2px solid #c5ab86;
+}
+
+#show .sesstion .lun_right{
+    float: right;
+    width:590px;
+    height: 360px;
+    position: relative;
+}
+
+#show .sesstion .lun_right .ding{
+    position: absolute;
+    left: 0px;
+}
+
+#show .sesstion .lun_right .top{
+    width: 88%;
+    height: 37px;
+    top: 0px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e0e2e2;
+}
+
+/* #show .sesstion .lun_right .top .border{
+    width: 400px;
+    height: 1px;
+    border: 1px solid
+} */
+
+#show .sesstion .lun_right .top ul{
+    width: 116%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+#show .sesstion .lun_right .top ul li{
+    float: left;
+    min-width: 40px;
+    height: 37px;
+    text-align: left;
+    line-height:16px;
+    color: #676767;
+    font-size: 18px;
+    margin: 6.5px 78px 0px 0px;
+}
+
+#show .sesstion .lun_right .top ul .color{
+    color:#1da6ba; ;
+    font-weight: 700;
+    background: url(../imgs/comm-spr.png) repeat;
+    background-position: 119px 26px;
+}
+
+#show .sesstion .lun_right .center{
+    width: 100%;
+    height: 284px;
+    top: 37px;
+    display:none;
+}
+
+#show .sesstion .lun_right #block{
+	display:block;
+}
+
+#show .sesstion .lun_right .center h3{
+    display: block;
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
+    color:#1da6ba;
+    text-indent:80px;
+    line-height: 60px;
+    background:url(../imgs/index-spr.png) center top repeat;
+    background-position: 0px 110px;
+}
+
+#show .sesstion .lun_right .center h3:hover{
+    color: #bb9a6c;
+}
+
+#show .sesstion .lun_right .center ul li{
+    width: 87%;
+    height: 40px;
+    border-top: 1px solid #e0e2e2 ;
+    border-bottom: 1px solid #e0e2e2 ;
+    margin: -1px 0px -1px 0px;
+}
+
+/* 公告 部分*/
+#show .sesstion .lun_right .center ul li .cent{
+    display: inline-block;
+    width: 36px;
+    height: 20px;
+    font-size:12px;
+    text-align: center;
+    line-height: 20px;
+    margin: 8px 0px;
+    color:#bb9a6c;
+    border: 1px #c5ab86 solid ;
+}
+
+#show .sesstion .lun_right .center ul li .notice{
+    color:#bb9a6c;
+    border: 1px #c5ab86 solid ;
+}
+
+#show .sesstion .lun_right .center ul li .video{
+    color:#e9852d;
+    border: 1px #e9852d solid;
+}
+
+#show .sesstion .lun_right .center ul li .match{
+    color:#6388c5;
+    border: 1px #97afc5 solid;
+}
+
+#show .sesstion .lun_right .center ul li .strategy{
+    color: #4ba36a;
+    border: 1px #4ba36a solid;
+}
+
+#show .sesstion .lun_right .center ul li .golden{
+    font-size: 13px;
+    color: black;
+    letter-spacing: 1px;
+    padding:0px 20px 0px 20px;
+}
+
+#show .sesstion .lun_right .center ul li:hover .notice_color{
+    color: #bb9a6c;
+}
+
+#show .sesstion .lun_right .center ul li:hover .video_color{
+    color:#e9852d;
+}
+
+#show .sesstion .lun_right .center ul li:hover .match_color{
+    color:#6388c5;
+}
+
+#show .sesstion .lun_right .center ul li:hover .strategy_color{
+    color: #4ba36a;
+}
+
+
+/* 视频部分 */
+#show .sesstion .lun_right .center ul li .number{
+    float: right;
+    color: #9d9d9d;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+
+#show .sesstion .lun_right .bottom{
+    width: 88%;
+    height: 40px;
+    bottom: 0px;
+    background-color:#E3E2E2;
+}
+
+#show .sesstion .lun_right .bottom:hover{
+    background-color: #dad8d8;
+    border-radius: 4px;
+}
+
+#show .sesstion .lun_right .bottom a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-align:center;
+    line-height:40px;
+}
+
+#show .sesstion .lun_right .bottom a .text{
+    font-size: 14px;
+    color: #676767;
+    letter-spacing: 1px;
+}
+
+#show .sesstion .lun_right .bottom a .pik{
+    margin-left: 3px;
+    font-size: 14px;
+    color: #7ea1a6;
+}
+
+#show .sesstion .lun_right .bottom a .img{
+    display: block;
+    width: 40px;
+    height: 24px;
+    background:url(../imgs/comm-spr.png) repeat;
+    background-position:   96px -91px;
+    position: absolute;
+    top: 12px;
+    left: 330px;
+    animation: 1.5s linear infinite;
+    -webkit-animation: 1.5s linear infinite;
+}
+
+#show .sesstion .lun_right .bottom:hover a .img{
+    animation-name: arrowanim;
+    -webkit-animateion-name:arrowanim;
+}
+
+/* css3动画 */
+@keyframes arrowanim{
+
+    0%, 100%, 54%{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    18%, 36% {
+        -webkit-transform: translateX(4px);
+        transform: translateX(4px);
+    }
+
+    27% {
+            -webkit-transform: translateX(1px);
+            transform: translateX(1px);
+        }
+}
+
+/* 首页内容end */
+
+/* 楼层 */
+#show #loucent{
+    min-width: 1260px;
+    height: auto;
+    margin: 380px auto;
+}
+
+#show #loucent .loucent{
+    width: 1440px;
+    height: 520px;
+    position: relative;
+    margin:40px auto;
+}
+
+#show #loucent .one_loucent{
+    height: 810px;
+}
+
+#show #loucent .three_loucent{
+    height: 630px;
+}
+
+
+#show #loucent .loucent .cent{
+    width: 100%;
+    height:335px;
+    margin: 0px 30px 0px 0px;
+    position: relative;
+}
+
+#show #loucent .loucent .cent .cent_left{
+    float: left;
+    width: 820px;
+    height: 335px;
+}
+
+#show #loucent .loucent .cent .cent_left .h3{
+    width: 100%;
+    height: 35px;
+    position: relative;
+}
+
+#show #loucent .loucent .cent .cent_left .h3 .before{
+    display: block;
+    float: left;
+    width: 4px;
+    height: 30px;
+    margin-top: 3px;
+    background-color: #1da6ba;
+}
+
+#show #loucent .loucent .cent .cent_left .h3 .h2_title{
+    float:left;
+    font-weight: normal;
+    font-size: 24px;
+    font-weight: 400;
+    color:#0b0b0b;
+    line-height: 35px;
+    text-indent: 8px;
+}
+
+#show #loucent .loucent .cent .cent_left .h3 #lis{
+    position: absolute;
+    top: 0px;
+    left: 125px;
+    width: 695px;
+    height: 100%;
+    z-index: 100;
+    box-sizing: border-box;
+    border-bottom: 1px #d6d7d8 solid;
+}
+
+#show #loucent .loucent .cent .cent_left .h3 #lis li{
+    float: left;
+    width: auto;
+    min-width: 40px;
+    height: 36px;
+    font-size: 16px;
+    text-align:center;
+    line-height:28px;
+    letter-spacing: 1px;
+    margin: 3px 28px 0px 0px;
+    color: #676767;
+    cursor: pointer;
+}
+
+#show #loucent .loucent .cent .cent_left .h3 #lis .color{
+    font-weight: bold;
+    color: #1da6ba;
+    background: url(../imgs/comm-spr.png) repeat;
+    background-position: 134px 27.44px;
+}
+
+#show #loucent .loucent .cent .cent_left .h3 #lis #position{
+    font-weight: bold;
+    color: #1da6ba;
+    background: url(../imgs/comm-spr.png) repeat;
+    background-position: 151px 28px;
+}
+
+#show #loucent .loucent .cent .cent_left .h3 .many{
+    float: right;
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height:37px;
+    font-size: 12px;
+    color: #7ea1a6;
+    text-indent: 33px;
+    line-height: 37px;
+    letter-spacing: 2px;
+}
+
+#show #loucent .loucent .cent .cent_left .h3 .many:hover{
+    text-decoration:underline;
+    color: #0da0b4;
+    font-weight: bold;
+}
+
+#show #loucent .loucent .cent .cent_left .h3 .many .img{
+    display: block;
+    position: absolute;
+    top: 9px;
+    left: 60px;
+    width: 19px;
+    height: 15px;
+    background:url(../imgs/comm-spr.png) repeat;
+    background-position: 96px -91px;
+    /* css动画效果 */
+    animation: 1s linear infinite;
+    -webkit-animation: 1s linear infinite;
+}
+
+#show #loucent .loucent .cent .cent_left .h3 .many:hover .img{
+    animation-name:arrowanim;
+}
+
+#show #loucent .loucent .cent .cent_left .louOne_block{
+	position:relative;
+	top:0px;
+	left:0px;
+}
+
+#show #loucent .loucent .cent .cent_left #One_Bck{
+	display:block;
+}
+
+#show #loucent .loucent .cent .cent_left #Two_bck{
+    position: relative;
+    top: 18px;
+    left: 0px;
+	display:block;
+}
+
+#show #loucent .loucent .cent .cent_left .list{
+    width: 100%;
+    height: 298px;
+    position:relative;
+    margin-top: 2px;
+    display:none;
+}
+
+#show #loucent .loucent .cent .cent_left .list ul{
+    position: relative;
+    width: 840px;
+    height: 100%;
+}
+
+#show #loucent .loucent .cent .cent_left .list ul li{
+    float: left;
+    width: 193px;
+    height:94%;
+    margin: 16px 17px 0px 0px;
+    background-color:white;
+    position: relative;
+    overflow:hidden;
+    transition: all 0.4s;
+}
+
+#show #loucent .loucent .cent .cent_left .list ul li .bg_imgs{
+    width: 193px;
+    height: 207px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    background-image:url(../imgs/dark70-bg-repeat.png) ;
+    opacity: 0;
+}
+
+#show #loucent .loucent .cent .cent_left .list ul li:hover .bg_imgs{
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+#show #loucent .loucent .cent .cent_left .list ul li:hover .prec_text{
+    color: #0da0b4;
+    transition: all 0.3s;
+}
+
+#show #loucent .loucent .cent .cent_left .list ul li .bg_imgs .bg{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../imgs/comm-spr.png) no-repeat;
+    background-position: 2px 3px;
+
+}
+
+#show #loucent .loucent .cent .cent_left .list ul li .bg_imgs .text{
+    position: relative;
+    top: 60px;
+    left: 0px;
+}
+
+#show #loucent .loucent .cent .cent_left .list ul li .bg_imgs .bg .h3_title{
+    width: 100%;
+    height: 30px;
+    text-align:center;
+    line-height:30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #cdbe91;
+    overflow: hidden;
+}
+
+#show #loucent .loucent .cent .cent_left .list ul li .bg_imgs .bg p{
+    display: block;
+    width: 176px;
+    height: 20px;
+    margin-left: 6px;
+    text-align: center;
+    line-height: 20px;
+    transition: all 0.3s;
+    overflow:hidden;
+}
+
+#show #loucent .loucent .cent .cent_left .list #imgs li:hover{
+   transition: all 0.2s ease;
+   -webkit-tranform:translate(0px,-6px);
+   transform: translate(0px,-6px);
+}
+
+#show #loucent .loucent .cent .cent_left .list ul li .prec_text{
+    color: black;
+    overflow: hidden;
+    transition:all 0.4s;
+    text-indent: 8px;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+#show #loucent .loucent .cent .cent_left .list ul li .xshd{
+    position: absolute;
+    font-size: 12px;
+    color: #1da6ba;
+    left: 10px;
+    bottom: 6px;
+    font: 12px/1.5 tahoma,'\5FAE\8F6F\96C5\9ED1',sans-serif;
+}
+
+#show #loucent .loucent .cent .cent_left .list ul li .new{
+    display: block;
+    width: 31px;
+    height: 20px;
+    border-radius: 6px;
+    position: relative;
+    margin-left: 154px;
+    margin-top: 18px;
+    background: url(../imgs/comm-spr.png) repeat;
+    background-position: 147px 157px;
+}
+
+/*右侧部分  下载游戏  */
+
+#show #loucent .loucent .cent .cent_right{
+    float:right;
+    width: 520px;
+    height: 335px;
+    margin-right: 70px;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right{
+    float:right;
+    width: 520px;
+    height: 255px;
+    margin-right: 70px;
+}
+
+#show #loucent .loucent .cent .cent_right .list_top{
+    width: 100%;
+    height: 168px;
+    position: relative;
+    top: 0px;
+    left:0px;
+}
+
+#show #loucent .loucent .cent .cent_right .list_top .small_left{
+    width: 367px;
+    height: 168px;
+    position: absolute;
+    top: 0px;
+    left:0px;
+}
+
+#show #loucent .loucent .cent .cent_right .list_top .small_left:hover{
+    -webkit-filter: brightness(1.1);
+}
+
+#show #loucent .loucent .cent .cent_right .list_top .small{
+    width: 125px;
+    height: 76px;
+    background: url(../imgs/index-spr.png) repeat;
+    background-position:-186px 257px;
+    position: absolute;
+}
+
+#show #loucent .loucent .cent .cent_right .list_top .small_top{
+    top: 0px;
+    right:0px;
+}
+
+#show #loucent .loucent .cent .cent_right .list_top .small_bot{
+    bottom: 0px;
+    right:0px;
+    transition: all 1s;
+}
+
+#show #loucent .loucent .cent .cent_right .list_top .small_bot:hover{
+    -webkit-filter: brightness(1.2);
+}
+
+#show #loucent .loucent .cent .cent_right .list_top .small a{
+    display: block;
+    width: 100%;
+    height: 76px;
+    text-indent: 39px;
+    line-height: 76px;
+    color: #fff;
+    font-weight: 700;
+}
+
+#show #loucent .loucent .cent .cent_right .list_center{
+    width: 100%;
+    height: 68px;
+    margin-top: 18px;
+}
+
+#show #loucent .loucent .cent .cent_right .list_center ul{
+    width: 590px;
+    height: 100%;
+}
+
+#show #loucent .loucent .cent .cent_right .list_center ul li{
+    float: left;
+    width: 112px;
+    height: 68px;
+    margin-right: 24px;
+    position: relative;
+    background-color:white;
+}
+
+#show #loucent .loucent .cent .cent_right .list_center ul li a{
+    display: block;
+    width: 112px;
+    height: 68px;
+    color: #424242;
+    text-indent: 44px;
+    line-height:68px;
+    font-size: 12px;
+    position: relative;
+}
+
+#show #loucent .loucent .cent .cent_right .list_center ul li a i{
+    display: block;
+    width: 28px;
+    height: 26px;
+    position: absolute;
+    top: 22px;
+    left: 10px;
+    /* css中 ，水平移动 垂直移动 */
+    /* transform:translate(10px, 23px);
+    -webkit-transform: translate(10px,23px); */
+    background:url(../imgs/comm-spr.png) repeat;
+}
+
+#show #loucent .loucent .cent .cent_right .list_center ul li:hover a{
+    border-radius: 4px;
+    box-shadow: 0 0 10px #ccc;
+    color: #0da0b4;
+}
+
+#show #loucent .loucent .cent .cent_right .list_center ul li:hover a i{
+    /* css中 ，水平移动 垂直移动 */
+    animation: scale1 ease 1.3s 1;
+    -webkit-animation: scale1 ease 1.3s 1;
+}
+
+#show #loucent .loucent .cent .cent_right .list_center ul li a .logo1{
+    background-position: 77px 189px;
+}
+
+#show #loucent .loucent .cent .cent_right .list_center ul li a .logo2{
+    background-position: 204px 130px;
+}
+
+#show #loucent .loucent .cent .cent_right .list_center ul li a .logo3{
+    background-position: 180px 130px;
+}
+
+#show #loucent .loucent .cent .cent_right .list_center ul li a .logo4{
+    background-position: 133px 187px;
+}
+
+#show #loucent .loucent .cent .cent_right .list_bottom{
+    width: 100%;
+    height: 68px;
+    position: relative;
+    top: 11px;
+}
+
+#show #loucent .loucent .cent .cent_right .list_bottom .cent_left{
+    width: 248px;
+    height: 68px;
+    background: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#show #loucent .loucent .cent .cent_right .list_bottom .cent_left a{
+    display: block;
+    width: 248px;
+    height: 68px;
+    color: #424242;
+    text-align: center;
+    line-height:68px;
+    font-size: 12px;
+    position: relative;
+}
+
+#show #loucent .loucent .cent .cent_right .list_bottom .cent_left a:hover{
+    color: #0da0b4;
+}
+
+#show #loucent .loucent .cent .cent_right .list_bottom .cent_left a i{
+    display: block;
+    width: 28px;
+    height: 26px;
+    position:absolute;
+    top:20px;
+    left: 60px;
+    background:url(../imgs/comm-spr.png) repeat;
+}
+
+#show #loucent .loucent .cent .cent_right .list_bottom .cent_left a:hover .logo5{
+    animation:scale1 ease  1.3s 1;
+    -webkit-animation:scale1 ease 1.3s 1;
+}
+
+
+#show #loucent .loucent .cent .cent_right .list_bottom .cent_left a .logo5{
+    background-position:164px 191px;
+}
+
+#show #loucent .loucent .cent .cent_right .list_bottom .cent_left a .logo8{
+    left: 160px;
+    background-position:146px 161px;
+}
+
+#show #loucent .loucent .cent .cent_right .list_bottom div:hover{
+    border-radius: 4px;
+    box-shadow: 0 0 10px #ccc;
+    color: #0da0b4;
+}
+
+#show #loucent .loucent .cent .cent_right .list_bottom .lol{
+    width: 112px;
+    height: 68px;
+    position: relative;
+    background: white;
+}
+
+#show #loucent .loucent .cent .cent_right .list_bottom .lol a{
+    display: block;
+    width: 100%;
+    height: 68px;
+    text-indent: 46px;
+    line-height: 68px;
+    color: #424242;
+    font-size: 12px;
+}
+
+#show #loucent .loucent .cent .cent_right .list_bottom .lol a>i{
+    display: block;
+    width: 28px;
+    height: 26px;
+    position: absolute;
+    background:url(../imgs/comm-spr.png) repeat;
+}
+
+#show #loucent .loucent .cent .cent_right .list_bottom .lol a:hover i{
+    animation: scale1 ease 1.3s 1;
+    -webkit-animation: scale1 ease 1.3s 1;
+}
+
+#show #loucent .loucent .cent .cent_right .list_bottom .lol a .logo6{
+    top: 21px;
+    left: 11px;
+}
+
+#show #loucent .loucent .cent .cent_right .list_bottom .lol a .logo7{
+    top: 21px;
+    left: 11px;
+}
+
+#show #loucent .loucent .cent .cent_right .list_bottom .lol a:hover{
+    color: #0da0b4;
+}
+
+#show #loucent .loucent .cent .cent_right .list_bottom .lol a .logo6{
+    background-position: 78px 133px;
+}
+
+#show #loucent .loucent .cent .cent_right .list_bottom .lol a .logo7{
+    background-position: 23px 192px;
+}
+
+#show #loucent .loucent .cent .cent_right .list_bottom .center{
+    position: absolute;
+    top: 0px;
+    left: 272px;
+}
+
+#show #loucent .loucent .cent .cent_right .list_bottom .right{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+/* 下部分 */
+#show #loucent .loucent .cent_bottom{
+    width: 100%;
+    height: 254px;
+    margin: 40px 0px;
+    position: relative;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left{
+    width: 840px;
+    height: 100%;
+    position: relative;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left div .bg{
+    width: 100%;
+    height: 100px;
+    background: url(../imgs/pic-mask-0.png) repeat;
+    position: absolute;
+    bottom: 0px;
+    z-index: 10;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left div{
+    float: left;
+    width: 403px;
+    height: 100%;
+    margin-right: 13px;
+    position: relative;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left div img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left div .championskin{
+    display: block;
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 100;
+    text-align: center;
+    line-height: 30px;
+    color: #cdbe91;
+    font-size: 14px;
+    background-color: #0b0b0b;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left div .com_title{
+    position: absolute;
+    top: 180px;
+    left: 0px;
+    width: 100%;
+    height: 40px;
+    text-indent: 20px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #cdbe91;
+    z-index: 100;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left div .com_text{
+    position: absolute;
+    top: 210px;
+    left: 0px;
+    width: 100%;
+    height: 40px;
+    text-indent: 22px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #cfcfcf;;
+    z-index: 100;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left .right .big_video {
+    opacity: 0;
+    width: 403px;
+    height: 254px;
+    position: absolute;
+    top: -24px;
+    left: 0px;
+    z-index: 100;
+    /* css3过渡 */
+    transition: all 0.3s  ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s  ease-in-out;
+    -o-transition: all 0.3s  ease-in-out;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left .right .big_video .vide_top{
+    width: 100%;
+    height: 240px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left .right .big_video .bottom{
+    width: 100%;
+    height: 61px;
+    position: absolute;
+    bottom:-61px;
+    background-color: white;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left .right .big_video .bottom .text_p{
+    display: block;
+    width:280px;
+    height: 30px;
+    text-indent: 20px;
+    overflow: hidden;
+    line-height: 30px;
+    color: #0b0b0b;
+    font-size: 16px;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left .right .big_video .bottom span{
+    display: block;
+    width:280px;
+    height: 20px;
+    width: 100px;
+    text-indent: 20px;
+    line-height: 20px;
+    color: #a1a1a2;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left .right .big_video .bottom .block{
+    display: block;
+    width: 86px;
+    height: 30px;
+    border: 1px solid #bb9a6c;
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    font-size: 14px;
+    color: #bb9a6c;
+    text-align: center;
+    line-height: 30px;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left .right .big_video .bottom .block:hover{
+    transition: all 0.4s;
+    color: white;
+    background-color:  #bb9a6c;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left .right:hover .big_video {
+    opacity: 1;
+    transform: scale(1.08);
+    -webkit-transform: scale(1.08);
+    -moz-transform: scale(1.08);
+    -o-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+}
+
+/* right 显示div */
+#show #loucent .loucent .cent_bottom .cent_left .right #list{
+    width: 1374px;
+    height:0px;
+    position: relative;
+    top: 0px;
+    left: -416px;
+    background: blue;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left .right #list #Us{
+    width: 101%;
+    height: 100%;
+    opacity: 0;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    transition: all 0.3s;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left .right:hover #list #Us{
+    opacity: 1;
+    height: 117px;
+    transition: all 0.4s;
+    transform: translate(0px,42px);
+    /* 兼容 各种*/
+    -webkit-transform: translate(0px,42px);
+    -moz-transform: translate(0px,42px);
+    -o-transform: translate(0px,42px);
+    -ms-transform: translate(0px,42px);
+
+    /* 过渡 */
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transiton:all 0.4s ease-in-out;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left .right #list #Us li{
+    float:left;
+    width: 185px;
+    height: 100%;
+    bottom: 0px;
+    position: relative;
+    overflow: hidden;
+    margin-right: 13px;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left .right #list #Us li img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left .right #list #Us li:hover img{
+    /* 放大的 */
+    transform: scale(1.2);
+    -webkit-transform:scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform:scale(1.2);
+    -o-transform: scale(1.2);
+
+    /* 过渡 */
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition:all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left .right #list #Us li .text{
+    display: block;
+    width: 185px;
+    height: 30px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: #cdbe91;
+    text-align: center;
+    line-height: 30px;
+    background: url(../imgs/dark70-bg-repeat.png);
+}
+
+
+
+
+
+#show #loucent .loucent .cent_bottom .cent_left div .none{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    overflow: hidden;
+    opacity: 0;
+    background:url(../imgs/dark70-bg-repeat.png) repeat;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left div:hover .none{
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left div .none .bg{
+    width: 100%;
+    height: 100%;
+    margin: -3px 4px;
+    background: url(../imgs/index-spr.png) repeat;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left div .none .bg #list{
+    width: 450px;
+    height: 140px;
+    position: relative;
+    top: 18px;
+    left: 10px;
+    padding:10px 10px;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left div .none .bg .p1{
+    font-weight: normal;
+    color: #cdbe91;
+    font-size: 18px;
+    position: absolute;
+    left: 17px;
+    top: 6px;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left div .none .bg #list li{
+    float: left;
+    width: 170px;
+    height: 40px;
+    margin: 10px 10px;
+    position: relative;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left div .none .bg #list li .text{
+    display: block;
+    float: left;
+    width: 100px;
+    height: 40px;
+    color: white;
+    text-align: left;
+    margin-left: -12px;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left div .none .bg #list li .three{
+    display: inline-block;
+    width: 130px;
+    height: 40px;
+    position: absolute;
+    top:0px;
+    left: 46px;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left div .none .bg #list li .three .pre1{
+    float: left;
+    display: block;
+    width: 36px;
+    height: 6px;
+    margin-top: 17px;
+    margin-right: 6px;
+    background-color: white;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left div .none .bg #list li .three .hui{
+    background-color: #6c6c6c;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left div .none .bg .btn {
+    width: 154px;
+    height: 42px;
+    background: url(../imgs/index-spr.png) repeat;
+    background-position:-402px 393px;
+    position: absolute;
+    top:190px;
+    left: 30px;
+    color: #ffdb8b;
+    font-size: 14px;
+    text-align: center;
+    line-height: 42px;
+}
+
+#show #loucent .loucent .cent_bottom .cent_left div .none .bg .btn:hover {
+    transition: 0.8s;
+    -webkit-filter: brightness(1.2);
+}
+
+
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img{
+    width: 620px;
+    height: 100%;
+    position: relative;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left div{
+    float: left;
+    width: 250px;
+    height: 254px;
+    margin-right: 20px;
+    position: relative;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left div .wImg{
+    width: 250px;
+    height: 120px;
+    position: absolute;
+    left: 0px;
+    background: pink;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left div .wImg img{
+    width: 100%;
+    height: 100%;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left div .small_top .video{
+    width: 180px;
+    height: 160px;
+    background: white;
+    box-shadow: 68px 21px 19px 15px white;
+    position: absolute;
+    top: 0px;
+    z-index: 100;
+    opacity: 0;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left div .small_top .video .video_top{
+    position: absolute;
+    top: -21px;
+    left: -16px;
+    width: 280px;
+    height: 200px;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left div .small_top:hover .video{
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+
+    /* 兼容浏览器 */
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition:all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    /* 兼容浏览器 */
+    transform: scale(1.08);
+    -webkit-transform: scale(1.08);
+    -moz-transform:scale(1.08);
+    -ms-transform:scale(1.08);
+    -o-transform:scale(1.08);
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left div .small_top{
+    top: 0px;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left div .small_top .video .bottom{
+    width: 100%;
+    height: 61px;
+    position: absolute;
+    bottom: -30px;
+    background-color: white;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left div .small_top .video .bottom .text_p{
+    display: block;
+    width: 280px;
+    height: 30px;
+    text-indent: 20px;
+    overflow: hidden;
+    line-height: 30px;
+    color: #0b0b0b;
+    font-size: 16px;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left div .small_top .video .bottom .color{
+    display: block;
+    width: 280px;
+    height: 20px;
+    width: 100px;
+    text-indent: 20px;
+    line-height: 20px;
+    color: #a1a1a2;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left div .small_top .video .bottom .block{
+    display: block;
+    width: 86px;
+    height: 30px;
+    border: 1px solid #bb9a6c;
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    font-size: 14px;
+    color: #bb9a6c;
+    text-align: center;
+    line-height: 30px;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left div .small_top .video .bottom .block:hover{
+    background: #bb9a6c;
+    color: white;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left div .small_bottom{
+    bottom:0px;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left .img_bottom .yrj{
+    display: block;
+    width: 241px;
+    height: 180px;
+    background: url(../images/0.jpg) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left .img_bottom .yrj .bg{
+    width: 100%;
+    height:100%;
+    background:url("../imgs/dark70-bg-repeat.png") repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left .img_bottom .yrj:hover .bg{
+    transition: all 0.3s ease ;
+    -webkit-transition: all 0.3s ease ;
+    opacity: 1;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left .img_bottom .yrj .bg span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background:url("../imgs/index-spr.png") repeat;
+    background-position: -400px 1px;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left .img_bottom .yrj .bg span .p1{
+    font-weight: normal;
+    display: block;
+    width: 220px;
+    height: 40px;
+    text-align: center;
+    color: #cdbe91;
+    font-size: 16px;
+    position: absolute;
+    left: 17px;
+    top: 60px;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left .img_bottom .yrj .bg span .text{
+    position: absolute;
+    top: 113px;
+    left: 40px;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left .img_bottom .btn{
+    display: block;
+    width: 248px;
+    height: 60px;
+    color: white;
+    background:url(../imgs/index-spr.png) repeat;
+    background-position: -186px 320px;
+    position: absolute;
+    text-align:center;
+    line-height: 60px;
+    font-size: 20px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left .img_bottom .btn .zuo{
+    display:block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 76px;
+    top: 21px;
+    background:url(../imgs/index-spr.png) repeat;
+    background-position: 745px 351px;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left .img_bottom .btn .right_jian{
+    display:block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left:  150px;
+    top: 21px;
+    background:url(../imgs/comm-spr.png) repeat;
+    background-position:33px -41px;
+    /* css3动画 */
+    animation:1s linear infinite;
+    -webkit-animation: 1s linear infinite;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left .img_bottom .btn:hover .right_jian{
+    -webkit-animation-name: arrowanim;
+    animation-name: arrowanim;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left .img_bottom .btn .you{
+    display:block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left:  180px;
+    top: 21.5px;
+    background:url(../imgs/index-spr.png) repeat;
+    background-position:770px 351px;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left .img_bottom .btn:hover{
+    opacity: 0.8;
+    transition: all 0.4s;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left .img_bottom .btn #Heros{
+    width: 430px;
+    height: 120px;
+    position: absolute;
+    top: 80px;
+    right: -20px;
+    box-shadow: 2px 1px 20px black;
+    background: white;
+    display: none;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left .img_bottom .btn #Heros .Triangle{
+    display: block;
+    position: absolute;
+    top: -32px;
+    left: 290px;
+    border: 16px solid transparent;
+    border-bottom-color: white;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left .img_bottom .btn:hover #Heros{
+    display: block;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left .img_bottom .btn #Heros .Heros_list{
+    width: 460px;
+    height: 100%;
+    position: relative;
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left .img_bottom .btn #Heros .Heros_list li{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 6px 6px;
+    background-color: blue;
+    border-radius: 50%;
+
+}
+
+#show #loucent .loucent .cent_bottom .cent_right .right_img .left .img_bottom .btn #Heros .Heros_list li a img{
+    display: block;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 2px #bb9a6c solid;
+}
+/*  第一楼层 end */
+
+/* 第二楼层 */
+#show #loucent #section1{
+    background-color: #e3e2e2;
+}
+
+#show #loucent #section1 .two_loucent{
+    height: 620px;
+}
+
+#show #loucent #section1 .two_loucent .check{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+}
+
+#show #loucent .loucent .cent .cent_left .h3 #border{
+    position: absolute;
+    top: 0px;
+    left: 125px;
+    width: 695px;
+    height: 100%;
+    z-index: 1000;
+    border-bottom: 1px #d6d7d8 solid;
+}
+
+#show #loucent .loucent .cent .cent_left .h3 #lis .blue{
+    font-weight: bold;
+    color: #1da6ba;
+    background: url(../imgs/comm-spr.png) repeat;
+    background-position: 120px 27.4px;
+}
+
+#show #loucent .three_loucent  .cent .cent_left .h3 #lis .blue{
+    font-weight: bold;
+    color: #1da6ba;
+    background: url(../imgs/comm-spr.png) repeat;
+    background-position: 151px 30px;
+}
+
+#show #loucent .loucent .cent .cent_left .list #video li{
+    position: relative;
+    height: 185px;
+    background-color: #e3e2e2;
+}
+
+#show #loucent .loucent .cent .cent_left .list #video li:hover a .video_title{
+    color: #0da0b4;
+}
+
+
+#show #loucent .loucent .cent .cent_left .list #video li a{
+    display: block;
+    width: 100%;
+    height: 185px;
+    position: relative;
+}
+
+#show #loucent .loucent .cent .cent_left .list #video li a .mark_img{
+    width: 100%;
+    height: 107px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#show #loucent .loucent .cent .cent_left .list #video li a .mark_img img{
+    width: 100%;
+    height: 107px;
+}
+
+#show #loucent .loucent .cent .cent_left .list #video li a .mark_img .ball{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    position: absolute;
+    top: 32px;
+    left: 70px;
+    z-index: 100;
+    opacity: 0;
+}
+
+#show #loucent .loucent .cent .cent_left .list #video li:hover a .mark_img .ball{
+    opacity: 1;
+}
+
+#show #loucent .loucent .cent .cent_left .list #video li a .mark_img .ball .ball_bg{
+    display: block;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: url(../imgs/index-spr.png) repeat;
+    background-position: -437px -253px;
+
+    /* css3动画属性 */
+    transition: 2s;
+    transition: All 0.4s ease-in-out;
+    -webkit-transition: All 0.4s ease-in-out;
+    -moz-transition: All 0.4s ease-in-out;
+    -o-transition: All 0.4s ease-in-out;
+}
+
+
+#show #loucent .loucent .cent .cent_left .list #video li:hover a .mark_img  .ball .ball_bg{
+    transition: 2s;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+}
+
+
+#show #loucent .loucent .cent .cent_left .list #video li a .mark_img .ball .bk{
+    display: block;
+    width: 11px;
+    height: 13px;
+    background: url(../imgs/index-spr.png) repeat;
+    background-position: -456px -316px;
+    position: absolute;
+    top: 22px;
+    left: 24px;
+}
+
+
+#show #loucent .loucent .cent .cent_left .list #video li a .video_title{
+    display: block;
+    width: 173px;
+    height: 30px;
+    color: #424242;
+    position: absolute;
+    font-size: 13px;
+    top: 117px;
+    left: 18px;
+    text-align: left;
+}
+
+#show #loucent .loucent .cent .cent_left .list #video li a .span{
+    display: block;
+    width: 78px;
+    height: 20px;
+    position: absolute;
+    bottom: 10px;
+    text-align:right;
+    font-size: 10px;
+    color: #919091;
+    line-height:26px;
+    overflow: hidden;
+}
+
+#show #loucent .loucent .cent .cent_left .list #video li a .text_left{
+    left: 0px;
+}
+
+#show #loucent .loucent .cent .cent_left .list #video li a .text_right{
+    right: 0px;
+}
+
+
+
+/* 楼层2——右侧部分 */
+
+#show #loucent .loucent .cent .cent_right .h3{
+    width: 100%;
+    height: 35px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#show #loucent .loucent .cent .cent_right .h3 .before{
+    display: block;
+    float: left;
+    width: 4px;
+    height: 30px;
+    margin-top: 3px;
+    background-color: #1da6ba;
+}
+
+#show #loucent .loucent .cent .cent_right .h3 .h2_title{
+    float: left;
+    font-weight: normal;
+    font-size: 24px;
+    font-weight: 400;
+    color: #0b0b0b;
+    line-height: 35px;
+    text-indent: 8px;
+}
+
+#show #loucent .loucent .cent .cent_right .h3 #lis{
+    position: absolute;
+    top: 0px;
+    left: 125px;
+    width: 424px;
+    height: 100%;
+    box-sizing: border-box;
+    border-bottom:1px solid #d6d7d8;
+}
+
+#show #loucent .loucent .cent .cent_right .h3 #lis li{
+    float: left;
+    width: auto;
+    min-width: 40px;
+    height: 36px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    letter-spacing: 1px;
+    margin: 4.2px 20px 0px 0px;
+    color: #676767;
+}
+
+#show #loucent .loucent .cent .cent_right .h3 #lis .blue{
+    font-weight: bold;
+    color: #1da6ba;
+    background: url(../imgs/comm-spr.png) repeat;
+    background-position: 120px 26px;
+}
+
+#show #loucent .loucent .cent .cent_right #Lun{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top:34px;
+    left: 12px;
+    overflow: hidden;
+}
+
+#show #loucent .loucent .cent .cent_right #Lun .j_box{
+    width: 4000px;
+    height: 300px;
+    position: relative;
+}
+
+#show #loucent .loucent .cent .cent_right #Lun .lis{
+    float: left;
+    width: 500px;
+    height: 300px;
+    opacity: 0;
+	transition: 1.2s;
+}
+
+#show #loucent .loucent .cent .cent_right #Lun #jbck{
+    opacity: 1;
+}
+
+#show #loucent .loucent .cent .cent_right #Lun .lis #ul{
+    width: 530px;
+    height: 100%;
+    position: relative;
+}
+
+#show #loucent .loucent .cent .cent_right #Lun .lis #ul li{
+    float: left;
+    width: 156px;
+    height: 300px;
+    margin-right: 16px;
+}
+
+#show #loucent .loucent .cent .cent_right #Lun .lis #ul .lis_img{
+    width: 100%;
+    height: 211px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#show #loucent .loucent .cent .cent_right #Lun .lis #ul .lis_img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#show #loucent .loucent .cent .cent_right #Lun .lis #ul .lis_img .h3_text{
+    display: block;
+    width: 100%;
+    height: 32px;
+    color: white;
+    text-align: center;
+    line-height: 32px;
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    font-size: 16px;
+}
+
+#show #loucent .loucent .cent .cent_right #Lun .lis #ul .lis_img .date_title{
+    display: block;
+    width: 100%;
+    height: 30px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    position: absolute;
+    top: 166px;
+    left: 0px;
+}
+
+
+
+#show #loucent .loucent .cent .cent_right #Lun .lis #ul .hui_text{
+    display: block;
+    width: 90%;
+    height: 40px;
+    font-size: 13px;
+    text-indent:12px;
+    color: #919091;
+    margin: 10px 8px;
+    overflow: hidden;
+}
+
+#show #loucent .loucent .cent .cent_right #Lun .lis #ul li:hover .hui_text{
+    color: #0da0b4;
+}
+
+#show #loucent .loucent .cent .cent_right #Lun .lis #ul li .clefive{
+    width: 100%;
+    height: 32px;
+    position: relative;
+    bottom: 20px;
+}
+
+#show #loucent .loucent .cent .cent_right #Lun .lis #ul li .clefive .img{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    position: absolute;
+    left: 12px;
+    top: 20px;
+}
+
+#show #loucent .loucent .cent .cent_right #Lun .lis #ul li .clefive .img img{
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+}
+
+#show #loucent .loucent .cent .cent_right #Lun .lis #ul li .clefive p{
+    font-size: 12px;
+    color: #919091;
+    position: absolute;
+    top: 24px;
+    left: 42px;
+    cursor: pointer;
+}
+
+#show #loucent .loucent .cent .cent_right #Lun .lis #ul li .clefive p:hover{
+    color: #0da0b4;
+}
+
+#show #loucent .loucent .cent .cent_right .bottom_btn{
+    width: 520px;
+    height: 50px;
+    position: absolute;
+    top: 394px;
+    background: url(../imgs/index-spr.png) repeat;
+    background-position: 0 -522px;
+    background-repeat: no-repeat;
+}
+
+#show #loucent .loucent .cent .cent_right .bottom_btn:hover{
+    filter:brightness(1.08);
+    -webkit-filter:brightness(1.08);
+}
+
+#show #loucent .loucent .cent .cent_right .bottom_btn a{
+    display: inline-block;
+    width: 100%;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    color: #ab8e66;
+}
+
+#show #loucent .loucent .cent .cent_right .bottom_btn a .bg{
+    display: block;
+    width: 20px;
+    height: 24px;
+    background: url(../imgs/comm-spr.png) repeat;
+    background-position:28px -67px;
+    position: absolute;
+    top: 16px;
+    left: 315px;
+}
+
+/* 左右箭头 */
+#show #loucent .loucent .cent .cent_right .Btn{
+    position: relative;
+    width: 555px;
+    height: 52px;
+    top: -188px;
+    left: -15px;
+}
+
+#show #loucent .loucent .cent .cent_right .Btn .bot{
+    width: 23px;
+    height: 52px;
+    position: absolute;
+    top: 0px;
+    background: url(../imgs/index-spr.png);
+}
+
+#show #loucent .loucent .cent .cent_right .Btn .btn_left{
+    left: 0px;
+    background-position:-221px -396px;
+}
+
+#show #loucent .loucent .cent .cent_right .Btn .btn_right{
+    right: 0px;
+    background-position:-193px -396px;
+}
+
+
+/* 第三楼层 */
+
+#show #loucent .three_loucent .cent .cent_left .h3{
+    width: auto;
+}
+
+#show #loucent .three_loucent .cent .cent_left .h3 #lis{
+    width: 1236px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .h3 .many{
+    position: relative;
+    display: inline-block;
+    width: 280px;
+    height: 37px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .h3 .many .logo{
+    float:left;
+    display: block;
+    width: 25px;
+    height: 25px;
+    /* margin: 4px 10px; */
+    transform: translate(25px, 5px);
+    background: url(../images/lpl.png) repeat;
+    background-repeat: no-repeat;
+
+}
+
+#show #loucent .three_loucent .cent .cent_left .h3 .many .title{
+    position: relative;
+    top: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #676767;
+}
+
+#show #loucent .three_loucent .cent .cent_left .h3 .many .title:hover{
+    text-decoration: underline;  /* 下划线 */
+}
+
+#show #loucent .three_loucent .cent .cent_left .h3 .many .img{
+    position: absolute;
+    top: 8px;
+    left:260px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .h3 .many .more{
+    position: absolute;
+    top: 0px;
+    left: 198px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .h3 .many .more:hover{
+    color: #0da0b4;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* 大轮播 */
+#show #loucent .three_loucent .cent .cent_left .mkwap{
+    width: 1360px;
+    height: 540px;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkTop{
+    width: 6840px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkTop .mk_list{
+    float: left;
+    width: 1360px;
+    height: 200px;
+    margin: 0px 4px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkTop .mk_list #mk_U{
+    width: 1390px;
+    height: 200px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkTop .mk_list #mk_U li{
+    float: left;
+    width: 260px;
+    height: 200px;
+    margin: 0px 14px 0px 0px;
+    position: relative;
+    background-color: white;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkTop .mk_list #mk_U li .block{
+    display: inline-block;
+    width: 260px;
+    height: 28px;
+    background: url(../images/gamelist-top-ware.png) repeat;
+    background-color: #B4B3B3;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkTop .mk_list #mk_U li .ps{
+    display: block;
+    width: 260px;
+    height: 28px;
+    color:white;
+    line-height: 28px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkTop .mk_list #mk_U li .ps .span1{
+    margin-left: 12px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkTop .mk_list #mk_U li .ps .span2{
+    margin: 0px  16px  0px 101px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkTop .mk_list #mk_U li .ps .span3{
+    margin-right: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkTop .mk_list #mk_U li .game_list{
+    width: 110%;
+    height: 110px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkTop .mk_list #mk_U li .game_list .let{
+    float: left;
+    width: 86px;
+    height: 110px;
+    margin: 0px 1px;
+    position: relative;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkTop .mk_list #mk_U li .game_list .let .img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 17px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkTop .mk_list #mk_U li .game_list .let .img img{
+    width: 100%;
+    height: 100%;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkTop .mk_list #mk_U li .game_list .let .title{
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 10px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkTop .mk_list #mk_U li .game_list .let .title h3{
+    display: block;
+    width: 100%;
+    height: 30px;
+    text-indent: 25px;
+    font-weight: normal;
+    color: #385155;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkTop .mk_list #mk_U li .game_list .game_cen .inline{
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 15px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkTop .mk_list #mk_U li .game_list .game_cen .inline a{
+    font-size: 34px;
+    color: black;
+    font-weight:700;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkTop .mk_list #mk_U li .game_list .game_cen .block{
+    display: block;
+    width: 84px;
+    height: 26px;
+    font-size: 12px;
+    color: #727272;
+    text-align: center;
+    line-height: 26px;
+    position: absolute;
+    bottom: 10px;
+    background-color: white;
+    border: 1px #727272 solid;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkTop .mk_list #mk_U li .game_list .game_cen .block:hover{
+    transition: all 0.4s;
+    color: white;
+    background-image:none;
+    background-color: #727272;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkTop .mk_list #mk_U li .game_btn{
+    width: 260px;
+    height: 40px;
+    position: absolute;
+    top: 114px;
+    text-align: center;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkTop .mk_list #mk_U li .game_btn p{
+    font-size: 12px;
+    color: #727272;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot{
+    width: 100%;
+    height: 313px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_left{
+    float: left;
+    width: 820px;
+    height: 100%;
+    background-color: #EEEEEE;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_left .h_list{
+    width: 100%;
+    height: 32px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_left .h_list h2{
+    float: left;
+    display: block;
+    width: 100px;
+    height: 32px;
+    text-align: center;
+    line-height: 44px;
+    font-weight: normal;
+    font-size: 18px;
+    color: #0b0b0b;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_left .h_list .table{
+    float: right;
+    width: 717px;
+    height: 32px;
+    border-bottom: 1px #e0e2e2  solid;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_left .h_list .table li{
+    float: left;
+    width: auto;
+    min-width: 40px;
+    height: 36px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 36px;
+    letter-spacing: 1px;
+    margin-right: 37px;
+    color: #676767;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_left .h_list .table .blue{
+    font-weight: bold;
+    color: #1da6ba;
+    background: url(../imgs/comm-spr.png) repeat;
+    background-position: 120px 29px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_left .mkbot_list{
+    width: 100%;
+    height: 257px;
+    position: relative;
+    top:24px;
+    left: 10px;;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_left .mkbot_list #list{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 110%;
+    height: 100%;
+    list-style: none;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_left .mkbot_list #list li{
+    float:left;
+    width: 152px;
+    height: 257px;
+    position: relative;
+    margin-right: 12px;
+    background-color: white;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_left .mkbot_list #list li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_left .mkbot_list #list li a .list_left{
+    float: left;
+    display: block;
+    width: 32px;
+    height: 32px;
+    font-size: 24px;
+    color: #7b7b7b;
+    text-align: center;
+    line-height: 32px;
+    font-family: tttgbnumber,sans-serif;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_left .mkbot_list #list li a .list_right{
+    float: right;
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 6px 6px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_left .mkbot_list #list li a .list_right img{
+    width: 100%;
+    height: 100%;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_left .mkbot_list #list li a .list_img{
+    width: 151px;
+    height:151px;
+    background: -webkit-linear-gradient(top,#fefefe,#fefefe,#8a8a8a);
+    position: absolute;
+    top: 50px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_left .mkbot_list #list li a .list_img img{
+    width: 100%;
+    height: 100%;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_left .mkbot_list #list li a .list_jian{
+    width:151px;
+    height:40px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-indent: 10px;
+    line-height: 18px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_left .mkbot_list #list li a .list_jian .play_name{
+    font-size: 14px;
+    color: #424242;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_left .mkbot_list #list li a .list_jian .play_power{
+    font-size: 14px;
+    color: #7ea1a6;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_right{
+    float: right;
+    width: 496px;
+    height: 100%;
+    position: relative;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_right .mktop{
+    width: 100%;
+    height: 32px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_right .mktop h2{
+    font-size: 18px;
+    color: #0b0b0b;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_right .mkbot{
+    width: 100%;
+    height: 257px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_right .mkbot .mkBlock{
+    display: inline-block;
+    width: 100%;
+    height:32px;
+    background-color: #e0e0e0;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_right .mkbot .mkBlock a{
+    float: left;
+    display: block;
+    width: 88px;
+    height: 100%;
+    text-align:center;
+    line-height:32px;
+    color: #151517;
+    padding: 0px 22px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: -webkit-grab;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_right .mkbot .mkBlock .a_1{
+    padding: 0px;
+
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_right .mkbot  #paiList{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    background-color: white;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_right .mkbot #paiList li{
+    width: 560px;
+    height:46px;
+    margin-left: 26px;
+    line-height: 46px;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_right .mkbot #paiList span{
+    float: left;
+    display: block;
+    width: 44px;
+    height: 46px;
+    text-align: center;
+    line-height:46px;
+    margin-right: 75px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_right .mkbot #paiList .img{
+    width: 66px;
+    text-indent: 30px;
+    font-size: 16px;
+    color: #151517;
+    position: relative;
+    margin-left: -10px;
+    margin-right: 64px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_right .mkbot #paiList .img img{
+    width: 25px;
+    height:25px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_right .mkbot #paiList .one{
+    text-indent:-4px ;
+    font-family:tttgbnumber,sans-serif;
+    font-size: 18px;
+    color: #7b7b7b;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_right .mkbot #paiList .text{
+    font-size: 16px;
+    color: #5f8d94;
+}
+
+#show #loucent .three_loucent .cent .cent_left .mkwap .mkBot .mk_right .mkbot #paiList .three{
+    margin-left: 12px;
+}
+
+/* 第二楼层end */
+
+/* 第四楼层 */
+
+#show #loucent #section2{
+  background-color: #e3e2e2;
+}
+#show #loucent .for_loucent{
+    height: 700px;
+    background: #e3e2e2;
+}
+
+#show #loucent .for_loucent .for_Top{
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    top: 70px;
+}
+
+#show #loucent .for_loucent .for_Top .before{
+    display: block;
+    float: left;
+    width: 4px;
+    height: 30px;
+    margin-top: 3px;
+    background-color: #1da6ba;
+}
+
+#show #loucent .for_loucent .for_Top .h2_title{
+    float: left;
+    font-weight: normal;
+    font-size: 24px;
+    font-weight: 400;
+    color: #0b0b0b;
+    line-height: 35px;
+    text-indent: 8px;
+}
+
+#show #loucent .for_loucent .for_Top #lis{
+    width: 1000px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 180px;
+}
+
+#show #loucent .for_loucent .for_Top #lis li{
+    float: left;
+    position: relative;
+    width: 80px;
+    height: 42px;
+    font-size: 16px;
+    color: #676767;
+    margin-right: 12px;
+    line-height: 42px;
+}
+
+#show #loucent .for_loucent .for_Top #lis #one{
+    width: 100px;
+}
+
+#show #loucent .for_loucent .for_Top #lis li span{
+    float: left;
+    display: block;
+    width: 21px;
+    height: 32px;
+    position: absolute;
+    top: 11px;
+    left: -26px;
+    background: url(../imgs/index-spr.png) repeat;
+    background-size: 638px 572px;
+    background-repeat: no-repeat;
+    background-position: -406px -316px;
+}
+
+#show #loucent .for_loucent .for_Top #lis .blue{
+    float: left;
+    position: relative;
+    width: 80px;
+    height: 42px;
+    font-size: 16px;
+    color: #676767;
+    margin-right: 12px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #1da6ba;
+}
+
+#show #loucent .for_loucent .for_Top #lis .blue span{
+    background-position:-428px -316px;
+}
+
+#show #loucent .for_loucent .for_Top #lis li:hover{
+   font-weight: 700;
+   color: #1da6ba;
+   cursor: pointer;
+}
+
+#show #loucent .for_loucent .for_Top #lis li:hover span{
+    opacity: 1;
+    background-position:-428px -316px;
+    cursor: pointer;
+}
+
+#show #loucent .for_loucent .for_Bottom{
+    width: 100%;
+    height: 548px;
+    position: relative;
+    top: 130px;
+    display:none;
+}
+
+#show #loucent .for_loucent #forbck{
+    display: block;
+}
+
+#show #loucent .for_loucent .for_Bottom #lis{
+    width: 104%;
+    height: 100%;
+    position: relative;
+    top: 0px;
+}
+
+#show #loucent .for_loucent .for_Bottom #lis li{
+    float: left;
+    width: 90px;
+    height: 100px;
+    position: relative;
+    margin: 0px 10px 35px 7px;
+}
+
+#show #loucent .for_loucent .for_Bottom #lis li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#show #loucent .for_loucent .for_Bottom #lis li a img{
+    display: block;
+    margin: 0 auto;
+    width: 66px;
+    height: 66px;
+}
+
+#show #loucent .for_loucent .for_Bottom #lis li a .ZF{
+    width: 66px;
+    height: 66px;
+    position:relative;
+    opacity: 0;
+    transition:  0.2s;
+}
+
+#show #loucent .for_loucent .for_Bottom #lis li:hover a .ZF{
+    opacity: 1;
+    transition:  0.2s;
+}
+
+#show #loucent .for_loucent .for_Bottom #lis li a .ZF .bg_black{
+    display: block;
+    width: 66px;
+    height: 66px;
+    position: absolute;
+    top: -66px;
+    left: 12px;
+    opacity: 0.8;
+    background: url(../imgs/dark70-bg-repeat.png);
+}
+
+#show #loucent .for_loucent .for_Bottom #lis li a .ZF .bg_black .input{
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin: 20px auto;
+    background:url(../imgs/index-spr.png) repeat;
+    background-position: -401px -225px;
+}
+
+#show #loucent .for_loucent .for_Bottom #lis li a .title{
+    display: block;
+    width: 90px;
+    height: 32px;
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+    line-height:32px;
+    position: absolute;
+    bottom: 0px;
+}
+
+#show #loucent .for_loucent .for_Bottom #lis li:hover a .title{
+    color: #0da0b4;
+}
+
+/* 第四楼层end */
+
+/* 第五楼层 */
+#show #loucent .five_left{
+    float: left;
+    width: 820px;
+    height: 100%;
+    position: relative;
+}
+
+#show #loucent .five_left .five_top{
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    top: 70px;
+}
+
+#show #loucent .five_left .five_top .ction{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#show #loucent .five_left .five_top .ction .before{
+    display: block;
+    float: left;
+    width: 4px;
+    height: 30px;
+    margin-top: 3px;
+    background-color: #1da6ba;
+}
+
+#show #loucent .five_left .five_top .ction .h2_title{
+    float: left;
+    font-weight: normal;
+    font-size: 24px;
+    font-weight: 400;
+    color: #0b0b0b;
+    line-height: 35px;
+    text-indent: 8px;
+}
+
+#show #loucent .five_left .five_top .ction .many{
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: -10px;
+}
+
+#show #loucent .five_left .five_top .ction .block{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    display: block;
+    width: auto;
+    height: 35px;
+    font-size: 12px;
+    color: #7ea1a6;
+    line-height: 35px;
+    z-index: 1;
+}
+
+#show #loucent .five_left .five_top .ction .ico{
+    display: block;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 19px;
+    height: 15px;
+    background: url(../imgs/comm-spr.png) repeat;
+    background-position: 96px -91px;
+    animation: 1s linear infinite;
+    -webkit-animation: 1s linear infinite
+}
+
+#show #loucent .five_left .five_top .ction .many:hover .block{
+    color: #0da0b4;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#show #loucent .five_left .five_top .ction .many:hover .ico{
+    animation-name: arrowanim ;
+    -webkit-animation-name: arrowanim;
+}
+
+#show #loucent .five_left .five_top #J_fanartContainer{
+    width:840px;
+    height: 409px;;
+    position: relative;
+    top: 0px;
+    left: 10px;
+}
+
+#show #loucent .five_left .five_top #J_fanartContainer li{
+    float: left;
+    width: 191px;
+    height: 191px;
+    margin-top: 14px;
+    margin-right: 15.5px;
+    position: relative;
+    background-color: yellow;
+}
+
+#show #loucent .five_left .five_top #J_fanartContainer li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#show #loucent .five_left .five_top #J_fanartContainer li a img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s;
+}
+
+#show #loucent .five_left .five_top #J_fanartContainer li:hover a .user_img {
+    transition: all 0.4s;
+    transform: scale(1.3); /* 放大*/
+}
+
+#show #loucent .five_left .five_top #J_fanartContainer li a .none{
+    width: 191px;
+    height: 0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 10;
+    background: url(../imgs/dark70-bg-repeat.png) repeat center;
+    transition: all 0.6s;
+}
+
+#show #loucent .five_left .five_top #J_fanartContainer li:hover .none {
+    height: 75px;
+    transition:  all 0.4s;
+}
+
+#show #loucent .five_left .five_top #J_fanartContainer li a .none .game_name{
+    margin: 10px 12px;
+    font-size: 12px;
+    color: white;
+}
+
+#show #loucent .five_left .five_top #J_fanartContainer li a .none .game_name:hover{
+    text-decoration:underline;
+}
+
+#show #loucent .five_left .five_top #J_fanartContainer li a .none .user_block{
+    display: inline-block;
+    width: 100%;
+    height: 32px;
+    position: relative;
+}
+
+#show #loucent .five_left .five_top #J_fanartContainer li a .none .user_block img{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 12px;
+}
+
+#show #loucent .five_left .five_top #J_fanartContainer li a .none .user_block .yin{
+    color: #b2b2b2;
+    font-size: 14px;
+    position: absolute;
+    top: 6px;
+    left: 40px;
+}
+
+#show #loucent .five_left .five_top #J_fanartContainer li a .none .user_block .yin:hover{
+    color: white;
+}
+
+#show #loucent .five_left .five_top #J_fanartContainer li a .none .user_block .ico{
+    display: block;
+    width: 28px;
+    height:20px;
+    position: absolute;
+    top: 8px;
+    left: 150px;
+    background: url(../imgs/index-spr.png) repeat;
+    background-position: -456px -226px;
+}
+
+#show #loucent .five_left .five_top #J_fanartContainer li a .none .user_block .number{
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    font-size: 16px;
+    color: #b2b2b2;
+}
+
+#show #loucent .five_left .five_top #J_fanartContainer li a .none .user_block .ico:hover{
+    color: #0da0b4;
+    background-position: -428px -226px;
+}
+
+#show #loucent .five_right{
+    float: right;
+    width: 500px;
+    height: 100%;
+    position: relative;
+}
+
+#show #loucent .five_right .fiv_l_Img{
+    position: absolute;
+    top: 76px;
+    left: 0px;
+    width: 241px;
+    height: 444px;
+    transition: 0.6s;
+}
+
+#show #loucent .five_right .fiv_l_Img img{
+    width: 100%;
+    height: 100%;
+}
+
+#show #loucent .five_right .fiv_l_Img:hover{
+    transition: 0.6s;
+    margin-top:-20px;
+    -webkit-filter: brightness(1.2);  /*css3 调节亮度*/
+}
+
+#show #loucent .five_right .fiv_r_Img{
+    width: 240px;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+/* 第五楼层 end*/
+#show #loucent .five_right .fiv_r_Img ul {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    top: 120px;
+}
+
+#show #loucent .five_right .fiv_r_Img ul li{
+    width: 100%;
+    height:87px;
+    transition: 0.4s;
+    margin-bottom: 26px;
+}
+
+#show #loucent .five_right .fiv_r_Img ul li:hover{
+    transition: 0.4s;
+    -webkit-filter:brightness(1.16);
+}
+
+#show #loucent .five_right .fiv_r_Img ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+#show #loucent .five_right .fiv_r_Img ul li a .white{
+    display: inline-block;
+    width: 100%;
+    height: 32px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    font-size: 16px;
+    color: white;
+    text-indent: 50px;
+    line-height: 32px;
+    overflow: hidden;
+}
+
+#show #loucent .five_right .fiv_r_Img ul li a .white .ico{
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 23px;
+    width: 17px;
+    height: 17px;
+    background: url(../imgs/index-spr.png) repeat center;
+    background-position: -484px -226px;
+}
+
+#show #loucent .five_right .fiv_r_Img ul .btn{
+    width: 100%;
+    height: 60px;
+    color: white;
+    background: url(../imgs/index-spr.png) repeat;
+    background-position: -186px 320px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    margin-left:-3px;
+}
+
+#show #loucent .five_right .fiv_r_Img ul .btn:hover{
+    transition: all 0.6s;
+    -webkit-filter:brightness(1.08);
+}
+
+#show #loucent .five_right .fiv_r_Img ul .btn .zuo{
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 60px;
+    top: 21px;
+    background: url(../imgs/index-spr.png) repeat;
+    background-position: 745px 351px;
+}
+
+#show #loucent .five_right .fiv_r_Img ul .btn .right_jian{
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 150px;
+    top: 21px;
+    background: url(../imgs/comm-spr.png) repeat;
+    background-position: 33px -41px;
+}
+
+#show #loucent .five_right .fiv_r_Img ul .btn .you{
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 173px;
+    top: 21px;
+    background: url(../imgs/index-spr.png) repeat;
+    background-position: 770px 351px;
+}
+
+
+/* 首页底部 */
+
+#footer{
+    width: 100%;
+    min-width: 1440px;
+    height: auto;
+    margin: 10px auto;
+    background-color: #e3e2e2;
+}
+
+#footer footer{
+    width: 1440px;
+    height: 265px;
+    margin: -280px auto;
+    position: relative;
+}
+
+#footer footer .footer_left{
+    width: 340px;
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    left: 40px;
+}
+
+#footer footer .footer_left .l{
+    display: block;
+    width: 190px;
+    height: 35px;
+    position: absolute;
+    top: 37px;
+    left: 0px;
+    background:url(../imgs/topfoot-spr.png) repeat;
+    background-size: 405px 178px;
+    background-repeat: no-repeat;
+    background-position: -216px 0;
+}
+
+#footer footer .footer_left .r{
+    display: block;
+    width: 89px;
+    height: 55px;
+    position: absolute;
+    top: 27px;
+    right: 30px;
+    background: url(../images/topfoot-spr.png) repeat;
+    background-position: -216px -84px;
+    background-repeat: no-repeat;
+    background-size: 405px 178px;
+
+}
+
+#footer footer .footer_right{
+    width: 780px;
+    height: 150px;
+    position: absolute;
+    top: 33%;
+    right: 74px;
+}
+
+#footer footer .footer_right ul li{
+    height: 22px;
+    line-height: 20px;
+    color: #9f9378;
+}
+
+#footer footer .footer_right ul li a{
+    font-size: 13px;
+    color: #9f9378;
+}
+
+#footer footer .footer_right ul li a:hover{
+    text-decoration: underline;
+}
+
+#footer footer .footer_right ul li .stle:hover{
+    text-decoration: none;
+}
+/* 首页底部end */
+
+
+/* 返回顶部 */
+
+#fixed{
+    width:66px;
+    height:300px;
+    position: fixed;
+    right: 0px;
+    top:200px;
+    overflow:hidden;
+    border-radius: 4px 0px 0px 4px;;
+    background-color: white;
+}
+
+#fixed #fix{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#fixed #fix li{
+    width: 59px;
+    height: 50px;
+    padding: 4px;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+}
+
+#fixed #fix li .img{
+    display: block;
+    width: 25px;
+    height:25px;
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    background: url(../imgs/comm-spr.png) repeat;
+    background-repeat: no-repeat;
+    background-size: 393px 200px;
+}
+
+#fixed #fix li .bg_1{
+    background-position: -239px -71px;
+}
+
+#fixed #fix li .bg_2{
+    background-position: -333px -39px;
+}
+
+#fixed #fix li .bg_3{
+    background-position: -288px -10px;
+}
+
+#fixed #fix li .bg_4{
+    background-position: -255px -95px;
+}
+
+#fixed #fix li .bg_5{
+    background-position: -217px -46px;
+}
+
+#fixed #fix li .bg_6{
+    width:36px;
+    height: 33px;
+    background-position: -190px -13px;
+}
+
+#fixed #fix li .text{
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: #92a8ab;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#fixed #fix li p:last-child{
+    bottom: -8px;
+}
+
+#fixed #fix li:hover .text{
+  font-weight: bold;
+  color: #0da0b4;
+}
+
+#fixed #fix li:hover .img{
+    animation: jump ease 1.5s 1;
+    -webkit-animation: jump ease 1.5s 1;
+}
+
+#fixed #fix .animate .text{
+  font-weight: bold;
+  color: #0da0b4;
+}
+
+#fixed #fix .animate .img{
+    animation: jump ease 1.5s 1;
+    -webkit-animation: jump ease 1.5s 1;
+}
+
+@keyframes jump{
+  0%{
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+
+  10%{
+    -webkit-transform: translateY(5px) scaleX(1.2) scaleY(.8);
+    transform: translateY(5px) scaleX(1.2) scaleY(.8);
+  }
+
+  30%{
+    -webkit-transform: translateY(-13px) scaleX(1) scaleY(1) rotateZ(5deg);
+    transform: translateY(-13px) scaleX(1) scaleY(1) rotateZ(5deg);
+  }
+
+  55%{
+    -webkit-transform: translateY(0) scaleX(1.1) scaleY(.9) rotateZ(0);
+    transform: translateY(0) scaleX(1.1) scaleY(.9) rotateZ(0);
+  }
+
+  70%{
+    -webkit-transform: translateY(-4px) scaleX(1) scaleY(1) rotateZ(-2deg);
+    transform: translateY(-4px) scaleX(1) scaleY(1) rotateZ(-2deg);
+  }
+
+  80% {
+    -webkit-transform: translateY(0) scaleX(1) scaleY(1) rotateZ(0);
+    transform: translateY(0) scaleX(1) scaleY(1) rotateZ(0);
+  }
+
+  85% {
+    -webkit-transform: translateY(0) scaleX(1.05) scaleY(.95) rotateZ(0);
+    transform: translateY(0) scaleX(1.05) scaleY(.95) rotateZ(0);
+  }
+
+  100%{
+    -webkit-transform: translateY(0) scaleX(1) scaleY(1);
+    transform: translateY(0) scaleX(1) scaleY(1);
+  }
+
+}
+
+
+
+/* 返回顶部end */

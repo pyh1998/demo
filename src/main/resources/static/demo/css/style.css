@@ -1122,8 +1122,9 @@ width: 94%;
     padding: 100px 0 0;
     position: relative;
     display: none;
-    width: 940px;
-    margin: 0 auto;
+    width: 80%;
+    left:10%;
+    /*margin: 0 auto;*/
 }
 .slide-control {
     position: absolute;
